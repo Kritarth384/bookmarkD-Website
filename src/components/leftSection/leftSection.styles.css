@@ -1,0 +1,23 @@
+.leftSection {
+    min-width: 20%;
+    /* border: 1px solid black; */
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
+    margin-right: 40px;
+    /* padding: 30px; */
+}
+.leftSection div {
+    border: 1px solid black;
+    margin: 20px;
+    flex: 50%;
+    min-width: 100%;
+    min-height: 47%;
+    border-radius: 22px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

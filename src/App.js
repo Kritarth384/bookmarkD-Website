@@ -3,6 +3,7 @@ import React from 'react'
 import './App.css';
 import Header from "./components/header/header.component.jsx"
 import MenuItem from './components/MenuItem/menuItem.component';
+import Homepage from './Pages/Homepage/Homepage.component';
 
 
 class App extends React.Component {
@@ -17,8 +18,7 @@ class App extends React.Component {
   render(){
     return (
       <div>
-        <Header/>
-        <MenuItem />
+        <Homepage />
       </div>
     )
   }

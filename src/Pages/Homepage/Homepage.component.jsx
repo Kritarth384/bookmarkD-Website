@@ -8,6 +8,7 @@ import MenuItem from "../../components/MenuItem/menuItem.component";
 const Homepage = () => (
     <div>
         <Header />
+        <hr className="line"/>
         <MenuItem />
     </div>
 );

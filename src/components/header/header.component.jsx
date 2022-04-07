@@ -2,6 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./header.styles.css";
 import { ReactComponent as Logo } from "../../assets/logo.svg";
+import { ReactComponent as InputLogo1 } from '../../assets/inputLogo1.svg'
+import { ReactComponent as InputLogo2 } from '../../assets/inputLogo2.svg'
+import ProfilePic from "../../assets/profilePic.png"
+import { ReactComponent as UserTag1} from "../../assets/userTag.svg"
+import ImageIcon from "../imageicon/imageicon.component";
 
 const Header = () => (
   <div className="header">
@@ -10,18 +15,24 @@ const Header = () => (
     </Link>
     <div className="options">
       <Link className="option" to="/">
-        HOME
+        Home
       </Link>
       <Link className="option" to="/">
-        BOOKS
+        Community
       </Link>
       <Link className="option" to="/">
-        AUTHOR
+        Exchange
       </Link>
-      <Link className="option" to="/">
-        COMMUNITY
-      </Link>
-      <input className="input" type="text" />
+      <div className="inputSection">
+        <InputLogo1 className="inputLogo1" />
+        <input className="input" type="text" placeholder="Search..."/>
+        <InputLogo2 className="inputLogo2"/>
+      </div>
+
+        <UserTag1 className="userTag"/>
+        <ImageIcon imageUrl={ProfilePic} />
+    
+      
 
       
     </div>

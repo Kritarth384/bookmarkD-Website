@@ -1,5 +1,5 @@
 .header {
-  height: 70px;
+  height: 53px;
   width: 100%;
   display: flex;
 
@@ -26,7 +26,7 @@
 .option {
   padding: 10px 15px;
   color: white;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .option:hover{
@@ -38,9 +38,9 @@
   display: flex;
   border: 1px solid white;
   width: 422px;
-  height: 66px;
+  height: 60px;
   border-radius: 46px;
-  margin-left: 517px;
+  margin-left: 332px;
 }
 
 .inputLogo1 {
@@ -64,6 +64,18 @@
   outline: none;
 }
 
+.rightSectionHeader{
+
+}
+
+.profileImage {
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  left: 1328px;
+  top: 36px;
+}
+
 .inputLogo2 {
   margin-left: 100px;
   margin-top: 13px;
@@ -78,5 +90,13 @@
 .userTag {
     width: 40px;
     height: 40px;
+}
+
+.chatImageIcon {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 1436px;
+  top: 56px;
 }
 

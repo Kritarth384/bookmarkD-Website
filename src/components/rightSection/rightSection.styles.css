@@ -1,13 +1,19 @@
 .userSection {
   min-width: 22%;
-border: 1px solid #5A5555;
-  height: 650px;
+  border: 1px solid #5A5555;
+  height: 617px;
   display: flex;
+  position: absolute;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 22px;
-  margin-left: 40px;
+  margin-left: -102px;
+  width: 336px;
+  height: 609px;
+  left: 1227px;
+  top: 190px;
+
 }
 
 .userName {

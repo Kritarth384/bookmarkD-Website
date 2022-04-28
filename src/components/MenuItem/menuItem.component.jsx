@@ -8,8 +8,8 @@ import RightSection from '../rightSection/rightSection.component'
 
 const MenuItem = () => (
     <div className='menu'>
-        <LeftSection />
-        <MidSection />
+        {/* <LeftSection />
+        <MidSection /> */}
         <RightSection />
     </div>
 )

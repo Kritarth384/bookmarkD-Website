@@ -8,10 +8,6 @@ const FriendItems = ({ imageUrl,name, title, place}) => (
     <div className="friendImage">
         <ImageIcon imageUrl={imageUrl} />
     </div>
-
-   
-    
-    
         <div className="friendData">
             <span className="name">{name}</span>
             <span className="title">{title}</span>

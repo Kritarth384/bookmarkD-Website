@@ -1,0 +1,75 @@
+.line {
+  margin-top: 72px;
+}
+
+.backIcon {
+    position: absolute;
+    width: 29px;
+    height: 25px;
+    left: 97px;
+    top: 193px;
+}
+
+.messageTitle {
+    position: absolute;
+    width: 315px;
+    height: 43px;
+    left: 161px;
+    top: 188px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 150%;
+    color: #fafafa;
+}
+
+.messageUserSection {
+    position: absolute;
+    width: 952px;
+    height: 565px;
+    left: 97px;
+    top: 246px;
+    background: linear-gradient( 180.16deg, rgba(255, 255, 255, 0.4) -354.5%, rgba(255, 255, 255, 0.1) 129.79% );
+    box-shadow: 0px 4px 24px -1px rgb(0 0 0 / 20%);
+    -webkit-backdrop-filter: blur(40px);
+    backdrop-filter: blur(40px);
+    border-radius: 15px;
+}
+
+.userImage {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 22px;
+    top: 16px;
+}
+
+.userName1 {
+    position: absolute;
+    width: 321px;
+    height: 48px;
+    left: 120px;
+    top: 33px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #f44336;
+}
+
+.inputMessage {
+    position: absolute;
+    width: 846px;
+    height: 66px;
+    left: 28px;
+    top: 475px;
+    background: #000000;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 24px -1px rgb(0 0 0 / 20%);
+    -webkit-backdrop-filter: blur(40px);
+    backdrop-filter: blur(40px);
+    border-radius: 15px;
+}

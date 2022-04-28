@@ -1,7 +1,7 @@
 .midSection {
     min-width: 50%;
-    border: 1px solid black;
-    height: 700px;
+    border: 1px solid white;
+    height: 627px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -11,7 +11,7 @@
 }
 
 .midSection div {
-    border: 1px solid black;
+    border: 1px solid white;
     margin: 56px;
     flex: 50% 1;
     min-width: 79%;

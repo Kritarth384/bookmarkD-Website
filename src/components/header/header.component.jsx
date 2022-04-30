@@ -9,7 +9,7 @@ import { ReactComponent as ChatIcon } from "../../assets/chatIcon.svg";
 import { ReactComponent as UserTag1 } from "../../assets/userTag.svg";
 import ImageIcon from "../imageicon/imageicon.component";
 
-const Header = () => (
+const Header = ({path, imageUrl}) => (
   <div className="header">
     <Link to="/" className="logo-container">
       <Logo className="logo" />
@@ -32,9 +32,9 @@ const Header = () => (
       </div>
 
       <UserTag1 className="userTag" />
-      <img src={ProfilePic} alt="" className="profileImage" />
+      <img src={imageUrl} alt="" className="profileImage" />
 
-      <Link to="/messageUsers">
+      <Link to={path}>
         <ChatIcon className="chatImageIcon" />
       </Link>
     </div>

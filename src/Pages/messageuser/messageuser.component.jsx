@@ -5,10 +5,16 @@ import User3 from '../../assets/user3.png'
 import Header from "../../components/header/header.component";
 import MenuItem from "../../components/MenuItem/menuItem.component";
 import './messageusers.styles.css'
+import ProfilePic from "../../assets/profilePic.png";
 
-const messageUser = () => (
+const messageUser = () => {
+  const imageUrl = ProfilePic;
+  const path = "/messageUsers"
+  
+  return(
+
   <div>
-    <Header />
+    <Header path = {path} imageUrl = {imageUrl} />
     <hr className="line" />
     <div className="messageTitle">
         Messages
@@ -33,5 +39,6 @@ const messageUser = () => (
     </Link>
   </div>
 );
+}
 
 export default messageUser;

@@ -4,10 +4,15 @@ import Header from '../../components/header/header.component';
 import MenuItem from '../../components/MenuItem/menuItem.component';
 import BookShelf1 from '../../assets/bookshelf1.png'
 import './shelf.styles.css'
+import ProfilePic from "../../assets/profilePic.png";
 
-const shelf = () => (
+const shelf = () =>  { 
+  const imageUrl = ProfilePic;
+  const path = "/messageUsers"
+  
+  return (
     <div>
-        <Header />
+        <Header path = {path} imageUrl = {imageUrl} />
         <hr className="line" />
         <div className='shelfName'>Your Shelf</div>
         <MenuItem />
@@ -25,5 +30,6 @@ const shelf = () => (
     </Link>
     </div>
 )
+  }
 
 export default shelf;

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Homepage.styles.css";
+import "./user2.styles.css";
 
 import Header from "../../components/header/header.component";
 import MenuItem from "../../components/MenuItem/menuItem.component";
@@ -12,12 +12,12 @@ import bookPic5 from "../../assets/bookPic5.png";
 import bookPic6 from "../../assets/bookPic6.png";
 import bookPic7 from "../../assets/bookPic7.png";
 import bookPic8 from "../../assets/bookPic8.png";
-import ProfilePic from "../../assets/profilePic.png";
+import user2 from "../../assets/user2.png"
 
-const Homepage = () => { 
-  const imageUrl = ProfilePic;
-  const path = "/messageUsers"
-  return (
+const User2 = () => {
+    const path = "/user2Message";
+    const imageUrl = user2;
+    return (
   <div>
     <Header path = {path} imageUrl = {imageUrl} />
     <hr className="line" />
@@ -49,7 +49,7 @@ const Homepage = () => {
       </button>
     </Link>
   </div>
-);
-}
+    )
+};
 
-export default Homepage;
+export default User2;

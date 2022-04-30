@@ -117,8 +117,49 @@ line-height: 150%;
 color: #FAFAFA;
 }
 
+.uploadPhotoLogo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 14px;
+    top: 15px;
 
-.inputPhoto {
+}
+.uploadPhotoLogo1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 14px;
+    top: 15px;
+
+}
+.uploadPhotoLogo2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 14px;
+    top: 15px;
+
+}
+.uploadPhotoLogo3 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 14px;
+    top: 15px;
+
+}
+.uploadPhotoLogo4 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 14px;
+    top: 15px;
+
+}
+
+
+.inputPhotoSection {
     
     position: absolute;
     width: 77px;
@@ -128,9 +169,22 @@ color: #FAFAFA;
     background: #FFFFFF;
 }
 
+.inputPhoto {
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 33px;
+    top: 828px;
+    background: #FFFFFF;
+    background: none;
+    -moz-opacity:0 ;
+	opacity: 0;
+    /* display: none; */
+}
 
 
-.inputPhoto1{
+
+.inputPhotoSection1{
     position: absolute;
     width: 77px;
     height: 77px;
@@ -138,8 +192,19 @@ color: #FAFAFA;
     top: 828px;
     background: #FFFFFF;
 }
+.inputPhoto1{
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 132px;
+    top: 828px;
+    background: #FFFFFF;
+    background: none;
+    -moz-opacity:0 ;
+	opacity: 0;
+}
 
-.inputPhoto2{
+.inputPhotoSection2{
     position: absolute;
     width: 77px;
     height: 77px;
@@ -147,8 +212,19 @@ color: #FAFAFA;
     top: 828px;
     background: #FFFFFF;
 }
+.inputPhoto2{
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 228px;
+    top: 828px;
+    background: #FFFFFF;
+    background: none;
+    -moz-opacity:0 ;
+	opacity: 0;
+}
 
-.inputPhoto3 {
+.inputPhotoSection3 {
     position: absolute;
     width: 77px;
     height: 77px;
@@ -156,7 +232,26 @@ color: #FAFAFA;
     top: 828px;
     background: #FFFFFF;
 }
+.inputPhoto3 {
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 324px;
+    top: 828px;
+    background: #FFFFFF;
+    background: none;
+    -moz-opacity:0 ;
+	opacity: 0;
+}
 
+.inputPhotoSection4 {
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 419px;
+    top: 828px;
+    background: #FFFFFF;
+}
 .inputPhoto4 {
     position: absolute;
     width: 77px;
@@ -164,6 +259,9 @@ color: #FAFAFA;
     left: 419px;
     top: 828px;
     background: #FFFFFF;
+    background: none;
+    -moz-opacity:0 ;
+	opacity: 0;
 }
 
 .locationName{

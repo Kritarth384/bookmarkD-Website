@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { ReactComponent as BackIcon } from "../../assets/backIcon.svg";
-import User2 from "../../assets/user2.png";
+import User3 from "../../assets/user3.png";
 import submitButtonIcon from "../../assets/submitButtonIcon.png";
 import Header from "../../components/header/header.component";
 import MenuItem from "../../components/MenuItem/menuItem.component";
-import "./messageuser2.styles.css";
+import "./messageuser3.styles.css";
 import firebase from "../../Services/firebase";
 import { db } from "../../Services/firebase";
 import ProfilePic from "../../assets/profilePic.png";
@@ -19,7 +19,7 @@ import {
 } from "firebase/firestore";
 import { Link } from "react-router-dom";
 
-function MessageUser2() {
+function MessageUser3() {
   const imageUrl = ProfilePic;
   const path = "/messageUsers"
   // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -61,8 +61,8 @@ function MessageUser2() {
       </Link>
       <label className="messageTitle">Messages</label>
       <div className="messageUserSection">
-        <img src={User2} alt="" className="userImage" />
-        <label className="userName1r">Sumit Kaif</label>
+        <img src={User3} alt="" className="userImage" />
+        <label className="userName1r">Anjali Deepak</label>
         <input
           type="text"
           className="inputMessage"
@@ -90,4 +90,4 @@ function MessageUser2() {
   );
 }
 
-export default MessageUser2;
+export default MessageUser3;

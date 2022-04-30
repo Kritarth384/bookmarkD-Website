@@ -10,8 +10,15 @@ import RightSection from './components/rightSection/rightSection.component';
 import uploadBookPage from './Pages/uploadbook/uploadbook.component';
 import shelf from './Pages/shelf/shelf.component';
 import messageUser from './Pages/messageuser/messageuser.component';
-import messageUser2 from './Pages/messageuser2/messageuser2.component';
-
+import MessageUser2 from './Pages/messageuser2/messageuser2.component';
+import firebase from './Services/firebase'
+import User2 from './Pages/user2/user2.component';
+import user2Message from './Pages/user2Message/user2Message.component';
+import MessageUser1 from './Pages/MessageUser1/MessageUser1.component';
+import MessageUser12 from './Pages/MessageUser12/MessageUser12.component';
+import User3 from './Pages/user3/user3.component';
+import user3Message from './Pages/user3Message/user3Message.component';
+import MessageUser3 from './Pages/messageuser3/messageuser3.component';
 
 class App extends React.Component {
   constructor(props){
@@ -20,6 +27,7 @@ class App extends React.Component {
     this.state = {
       user: ''
     };
+    
   }
 
   render(){
@@ -31,7 +39,14 @@ class App extends React.Component {
             <Route exact path = "/uploadBook" component= {uploadBookPage}/>
             <Route exact path = "/yourShelf" component= {shelf}/>
             <Route exact path = "/messageUsers" component= {messageUser}/>
-            <Route exact path = "/messageUser2" component= {messageUser2}/>
+            <Route exact path = "/messageUser2" component= {MessageUser2}/>
+            <Route exact path = "/messageUser3" component= {MessageUser3}/>
+            <Route exact path = "/messageUser1" component= {MessageUser1}/>
+            <Route exact path = "/messageUser12" component= {MessageUser12}/>
+            <Route exact path = "/user2" component= {User2}/>
+            <Route exact path = "/user3" component= {User3}/>
+            <Route exact path = "/user2Message" component= {user2Message}/>
+            <Route exact path = "/user3Message" component= {user3Message}/>
         </Switch>
       </div>
     )

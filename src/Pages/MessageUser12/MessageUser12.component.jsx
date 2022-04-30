@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { ReactComponent as BackIcon } from "../../assets/backIcon.svg";
-import User2 from "../../assets/user2.png";
+import ProfilePic from "../../assets/profilePic.png";
 import submitButtonIcon from "../../assets/submitButtonIcon.png";
 import Header from "../../components/header/header.component";
 import MenuItem from "../../components/MenuItem/menuItem.component";
-import "./messageuser2.styles.css";
+import "./MessageUser12.styles.css";
 import firebase from "../../Services/firebase";
+import user3 from "../../assets/user3.png"
 import { db } from "../../Services/firebase";
-import ProfilePic from "../../assets/profilePic.png";
 import {
   collection,
   addDoc,
@@ -19,9 +19,9 @@ import {
 } from "firebase/firestore";
 import { Link } from "react-router-dom";
 
-function MessageUser2() {
-  const imageUrl = ProfilePic;
-  const path = "/messageUsers"
+function MessageUser12() {
+    const path = "/user3Message";
+    const imageUrl = user3;
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const [inputMessage, setInputMessage] = useState("");
   const [users, setUsers] = useState([]);
@@ -56,13 +56,14 @@ function MessageUser2() {
     
     <Header path = {path} imageUrl = {imageUrl} />
       <hr className="line" />
-      <Link to = "/messageUsers">
+      <Link to = "/user3Message">
       <BackIcon className="backIcon" />
       </Link>
+      
       <label className="messageTitle">Messages</label>
       <div className="messageUserSection">
-        <img src={User2} alt="" className="userImage" />
-        <label className="userName1r">Sumit Kaif</label>
+        <img src={ProfilePic} alt="" className="userImage" />
+        <label className="userName1r">Ronak Singh</label>
         <input
           type="text"
           className="inputMessage"
@@ -90,4 +91,4 @@ function MessageUser2() {
   );
 }
 
-export default MessageUser2;
+export default MessageUser12;

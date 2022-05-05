@@ -17,18 +17,21 @@ import ProfilePic from "../../assets/profilePic.png";
 const Homepage = () => { 
   const imageUrl = ProfilePic;
   const path = "/messageUsers"
+  const exchange = "/exchange";
+  const home = "/";
+  const community = "/communityPageUser1";
   return (
   <div>
-    <Header path = {path} imageUrl = {imageUrl} />
+     <Header path = {path} imageUrl = {imageUrl} exchange={exchange} home={home} community={community} />
     <hr className="line" />
-    <div className="bookTitleSection">Books from Your friends</div>
+    <div className="bookTitleSection">Books from Your <label className="friendTitleSection">Friends</label></div>
     <div className="bookSection">
       <img src={bookPic1} alt="" className="bookImage1" />
       <img src={bookPic2} alt="" className="bookImage2" />
       <img src={bookPic3} alt="" className="bookImage3" />
       <img src={bookPic4} alt="" className="bookImage4" />
     </div>
-    <div className="communityTitleSection">Books from the Community</div>
+    <div className="communityTitleSection">Books from the <label className="communityTitleName">Community</label></div>
     <div className="communitySection">
       <img src={bookPic5} alt="" className="bookImage5" />
       <img src={bookPic6} alt="" className="bookImage6" />

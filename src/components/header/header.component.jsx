@@ -9,19 +9,19 @@ import { ReactComponent as ChatIcon } from "../../assets/chatIcon.svg";
 import { ReactComponent as UserTag1 } from "../../assets/userTag.svg";
 import ImageIcon from "../imageicon/imageicon.component";
 
-const Header = ({path, imageUrl}) => (
+const Header = ({home, community, exchange, path, imageUrl}) => (
   <div className="header">
     <Link to="/" className="logo-container">
       <Logo className="logo" />
     </Link>
     <div className="options">
-      <Link className="option" to="/">
+      <Link className="option" to={home}>
         Home
       </Link>
-      <Link className="option" to="/">
+      <Link className="option" to={community}>
         Community
       </Link>
-      <Link className="option" to="/">
+      <Link className="option" to={exchange}>
         Exchange
       </Link>
 

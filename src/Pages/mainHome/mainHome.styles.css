@@ -1,0 +1,208 @@
+.reviewSection1 {
+    position: absolute;
+    width: 942px;
+    height: 335px;
+    left: 91px;
+    top: 239px;
+    background: #201F25;
+    border: 1px solid #F44336;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.reviewSection2 {
+    position: absolute;
+    width: 942px;
+    height: 335px;
+    left: 91px;
+    top: 619px;
+    background: #201F25;
+    border: 1px solid #F44336;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.line {
+    margin-top: 72px;
+
+}
+
+.reviewTitle1 {
+    position: absolute;
+    width: 342px;
+    height: 30px;
+    left: 53px;
+    top: 22px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 150%;
+    color: #F44336;
+}
+
+.reviewImage1 {
+    position: absolute;
+    width: 168.12px;
+    height: 256.19px;
+    left: 53px;
+    top: 59px;
+    border-radius: 10px;
+}
+.reviewImage1:hover {
+    transform: scale(1.1);
+          transition: transform 1s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+          
+}
+.reviewImage2:hover {
+    transform: scale(1.1);
+          transition: transform 1s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+          
+}
+.reviewBookTitle1 {
+    position: absolute;
+    width: 201px;
+    height: 60px;
+    left: 268px;
+    top: 77px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 150%;
+    color: #FFFFFF;
+/* or 30px */
+
+
+color: #FFFFFF;
+}
+.reviewBookDescription1{
+    position: absolute;
+    width: 640px;
+    height: 120px;
+    left: 268px;
+    top: 182px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+}
+
+.fullStar1{
+    position: absolute;
+width: 28px;
+height: 29px;
+left: 268px;
+top: 140px;
+}
+.fullStar2{
+    position: absolute;
+width: 28px;
+height: 29px;
+left: 303px;
+top: 140px;
+}
+.fullStar3{
+    position: absolute;
+    width: 28px;
+    height: 29px;
+    left: 338px;
+    top: 140px;
+}
+.fullStar4{
+    position: absolute;
+    width: 28px;
+    height: 29px;
+    left: 373px;
+    top: 140px;
+}
+.fullStar5{
+    position: absolute;
+width: 30px;
+height: 30px;
+left: 408px;
+top: 140px;
+}
+.date{
+    position: absolute;
+    width: 111px;
+    height: 20px;
+    left: 823px;
+    top: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 150%;
+    color: #595757;
+}
+
+
+
+.readMore{
+    position: absolute;
+    width: 82px;
+    height: 23px;
+    left: 853px;
+    top: 296px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 150%;
+    color: #F44336;
+
+}
+
+.midSection1 {
+    position: absolute;
+    width: 306px;
+    height: 83px;
+    left: 418px;
+    top: 907px;
+    background: #201F25;
+    border: 1px solid #F44336;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.rightSection1 {
+    position: absolute;
+    width: 156px;
+    height: 81px;
+    left: 147px;
+    top: 0px;
+    background: linear-gradient(180.16deg, rgba(255, 255, 255, 0.4) -354.5%, rgba(255, 255, 255, 0.1) 129.79%);
+    box-shadow: 0px 4px 24px -1px rgb(0 0 0 / 20%);
+    -webkit-backdrop-filter: blur(40px);
+    backdrop-filter: blur(40px);
+    border-radius: 30px;
+}
+.label1 {
+    position: absolute;
+    width: 89px;
+    height: 43px;
+    left: 36px;
+    top: 25px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+}
+.label2 {
+    position: absolute;
+    width: 113px;
+    height: 43px;
+    left: 191px;
+    top: 26px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 150%;
+    color: #F44336;
+
+}

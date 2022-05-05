@@ -125,8 +125,8 @@ top: 320px; */
     position: absolute;
     width: 250px;
     height: 48px;
-    left: 1176px;
-    top: 823px;
+    left: 1164px;
+    top: 180px;
     border: 1px solid #F44336;
     box-sizing: border-box;
     border-radius: 15px;
@@ -161,8 +161,8 @@ top: 320px; */
     position: absolute;
     width: 250px;
     height: 48px;
-    left: 1179px;
-    top: 888px;
+    left: 1166px;
+    top: 245px;
     border: 1px solid #F44336;
     box-sizing: border-box;
     border-radius: 15px;
@@ -231,4 +231,53 @@ margin: 0px 10px;
 .bookImage3:hover {
     transform: scale(1.1);
           transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}
+
+.usersExchangeBooks {
+    position: absolute;
+    width: 906px;
+    height: 246px;
+    padding: 32px 25px;
+    left: 97px;
+    top: 635px;
+    display: flex;
+    overflow-y: hidden;
+    /* overflow: scroll; */
+    overflow-x: auto;
+    background: linear-gradient(180.16deg, rgba(255, 255, 255, 0.4) -354.5%, rgba(255, 255, 255, 0.1) 129.79%);
+    box-shadow: 0px 4px 24px -1px rgb(0 0 0 / 20%);
+    -webkit-backdrop-filter: blur(40px);
+    backdrop-filter: blur(40px);
+    border-radius: 40px;
+}
+
+.usersExchangeBooks::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+
+}
+
+.usersExchangeBooks::-webkit-scrollbar-track {
+    background: white;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+
+.usersExchangeBooks::-webkit-scrollbar-thumb {
+    background: #f44336;
+    border-radius: 10px;
+    height: 10px;
+   
+
+}
+
+.bookShelfImage133 {
+            /* padding: 0px 15px; */
+    width: 171px;
+    padding: 0px 28px;
+    height: 232.19px;
+    /* line-height: 110px; */
+    cursor: pointer;
+
 }

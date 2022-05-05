@@ -1,0 +1,35 @@
+.exchangeUpdate {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 100px;
+    position: absolute;
+    width: 224px;
+    height: 48px;
+    left: 144px;
+    top: 1011px;
+    background: #F44336;
+    border-radius: 15px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    color: black;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+}
+.exchangeUpdate:hover{
+    background: white;
+    color:#F44336;
+}
+
+.exchangeUpdate:active {
+    transform: scale(0.98);
+            /* Scaling button to 0.98 to its original size */
+            box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+            /* Lowering the shadow */
+}

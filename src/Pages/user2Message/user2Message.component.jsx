@@ -10,10 +10,13 @@ import "./user2Message.styles.css";
 const user2Message = () => {
     const path = "/user2Message";
     const imageUrl = user2;
+    const exchange = "/exchange2";
+  const home = "/user2";
+  const community = "/communityPageUser2";
     
     return(
   <div>
-    <Header path = {path} imageUrl = {imageUrl} />
+     <Header path = {path} imageUrl = {imageUrl} exchange={exchange} home={home} community={community} />
     <hr className="line" />
     <div className="messageTitle">Messages</div>
     <Link to="/messageUser1">
@@ -24,7 +27,7 @@ const user2Message = () => {
     </Link>
     
     <MenuItem />
-    <Link to="/">
+    <Link to="/user2">
       <button type="button" className="viewShelfButton">
         <span className="viewShelfName">Shelf</span>
       </button>

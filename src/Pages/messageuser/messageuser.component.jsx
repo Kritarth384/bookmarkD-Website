@@ -10,11 +10,14 @@ import ProfilePic from "../../assets/profilePic.png";
 const messageUser = () => {
   const imageUrl = ProfilePic;
   const path = "/messageUsers"
+  const exchange = "/exchange";
+  const home = "/";
+  const community = "/communityPageUser1";
   
   return(
 
   <div>
-    <Header path = {path} imageUrl = {imageUrl} />
+    <Header path = {path} imageUrl = {imageUrl} exchange={exchange} home={home} community={community} />
     <hr className="line" />
     <div className="messageTitle">
         Messages

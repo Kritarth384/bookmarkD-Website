@@ -1,0 +1,64 @@
+.leftSection {
+    min-width: 20%;
+    /* border: 1px solid white; */
+    height: 627px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
+    margin-right: 40px;
+    /* padding: 30px; */
+}
+.leftSection div {
+    
+}
+
+.bookName {
+
+    border: 1px solid white;
+flex: 30%;
+display: flex;
+  justify-content: left;
+  align-items: center;
+  min-width: 100%;
+  color:#F44336;
+  font-size: 18px;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  padding-left: 60px;
+
+
+}
+.bookContent {
+    border: 1px solid white;
+    flex: 70%;
+    display: flex;
+
+}
+
+.bookComponent {
+    flex-direction: column;
+    border: 1px solid white;
+    margin: 20px;
+    flex: 50%;
+    min-width: 100%;
+    min-height: 47%;
+    border-radius: 22px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.readList {
+    flex-direction: column;
+    border: 1px solid white;
+    margin: 20px;
+    flex: 50%;
+    min-width: 100%;
+    min-height: 47%;
+    border-radius: 22px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

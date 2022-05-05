@@ -1,0 +1,43 @@
+
+
+
+.friend {
+    width: 297px;
+    display: flex;
+    height: 80px;
+    margin-bottom: 15px;
+    align-items: left;
+    justify-content: left;
+}
+.friendImage{
+    margin-left: 11px;
+}
+
+.friendData{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    /* min-width: 30%; */
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px 20px;
+    /* margin-left: 8px; */
+}
+
+.title {
+    font-size: 15px;
+    color: #9CA3AF;
+
+}
+.place {
+    font-size: 15px;
+    color: #9CA3AF;
+
+}
+
+.name{
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+    margin-bottom: 2px;
+}

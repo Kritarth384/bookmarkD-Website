@@ -1,0 +1,7 @@
+.menu {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}

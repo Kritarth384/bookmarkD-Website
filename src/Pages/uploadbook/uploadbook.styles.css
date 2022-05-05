@@ -1,0 +1,589 @@
+.line {
+  margin-top: 72px;
+}
+
+.imageSection11 {
+  position: absolute;
+  width: 190px;
+  height: 303.19px;
+  left: 33px;
+  top: 188px;
+  background-color: #c4c4c4;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+}
+.bookPhoto {
+  width: 60px;
+  height: 60px;
+}
+.inputImage {
+  position: absolute;
+  width: 190px;
+  height: 303.19px;
+  left: 33px;
+  top: 188px;
+  background-color: #c4c4c4;
+  background: none;
+  -moz-opacity: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.nameBook {
+  position: absolute;
+  width: 173px;
+  height: 43px;
+  left: 298px;
+  top: 207px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 150%;
+  color: #fafafa;
+}
+
+.bookInput {
+  position: absolute;
+  width: 637px;
+  height: 46px;
+  left: 289px;
+  top: 250px;
+  border: 1px solid #f44336;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: transparent;
+  color: white;
+  font-family: "Poppins";
+  font-style: normal;
+  padding: 14px;
+}
+.bookInput:hover{
+    border: 2px solid white;
+}
+
+.authorName {
+  position: absolute;
+  width: 228px;
+  height: 43px;
+  left: 298px;
+  top: 316px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 150%;
+  color: #fafafa;
+}
+
+.authorNameInput {
+  position: absolute;
+  width: 637px;
+  height: 46px;
+  left: 289px;
+  top: 360px;
+  border: 1px solid #f44336;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: transparent;
+  color: white;
+  font-family: "Poppins";
+  padding: 14px;
+  font-style: normal;
+}
+.authorNameInput:hover{
+    border: 2px solid white;
+}
+
+.descriptionName {
+  position: absolute;
+  width: 228px;
+  height: 43px;
+  left: 298px;
+  top: 427px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 150%;
+  color: #f44336;
+}
+
+.descriptionInput {
+  position: absolute;
+  width: 637px;
+  height: 175px;
+  left: 289px;
+  top: 468px;
+  border: 1px solid #f44336;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 14px;
+  background: transparent;
+  color: white;
+  font-family: "Poppins";
+  font-style: normal;
+}
+
+.descriptionInput:hover{
+    border: 2px solid white;
+}
+
+.uploadPhotoName {
+  position: absolute;
+  width: 152px;
+  height: 50px;
+  left: 58px;
+  top: 774px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 150%;
+  /* or 36px */
+
+  color: #fafafa;
+}
+
+.uploadPhotoLogo {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 23px;
+  top: 23px;
+}
+.uploadPhotoLogo1 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 23px;
+  top: 23px;
+}
+.uploadPhotoLogo2 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 23px;
+  top: 23px;
+}
+.uploadPhotoLogo3 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 23px;
+  top: 23px;
+}
+.uploadPhotoLogo4 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 23px;
+  top: 23px;
+}
+
+.inputPhotoSection {
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  left: 33px;
+  top: 828px;
+  background: #ffffff;
+}
+
+.inputPhoto {
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  left: 33px;
+  top: 828px;
+  background: #ffffff;
+  background: none;
+  -moz-opacity: 0;
+  opacity: 0;
+  cursor: pointer;
+  /* display: none; */
+}
+
+.inputPhotoSection1 {
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  left: 132px;
+  top: 828px;
+  background: #ffffff;
+}
+.inputPhoto1 {
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  left: 132px;
+  top: 828px;
+  background: #ffffff;
+  background: none;
+  -moz-opacity: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.inputPhotoSection2 {
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  left: 228px;
+  top: 828px;
+  background: #ffffff;
+}
+.inputPhoto2 {
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  left: 228px;
+  top: 828px;
+  background: #ffffff;
+  background: none;
+  -moz-opacity: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.inputPhotoSection3 {
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  left: 324px;
+  top: 828px;
+  background: #ffffff;
+}
+.inputPhoto3 {
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  left: 324px;
+  top: 828px;
+  background: #ffffff;
+  background: none;
+  -moz-opacity: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.inputPhotoSection4 {
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  left: 419px;
+  top: 828px;
+  background: #ffffff;
+}
+.inputPhoto4 {
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  left: 419px;
+  top: 828px;
+  background: #ffffff;
+  background: none;
+  -moz-opacity: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.locationName {
+  position: absolute;
+  width: 228px;
+  height: 43px;
+  left: 643px;
+  top: 719px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 150%;
+  color: #f44336;
+  padding: 14px;
+}
+
+.stateName {
+  position: absolute;
+  width: 316px;
+  height: 43px;
+  left: 643px;
+  top: 783px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 150%;
+  color: #fafafa;
+}
+
+.stateInput {
+  position: absolute;
+  width: 412px;
+  height: 46px;
+  left: 643px;
+  top: 819px;
+  border: 1px solid #f44336;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: transparent;
+  color: white;
+  font-family: "Poppins";
+  font-style: normal;
+  padding: 14px;
+}
+
+.stateInput:hover{
+    border: 2px solid white;
+}
+
+.pincodeName {
+  position: absolute;
+  width: 98px;
+  height: 36px;
+  left: 643px;
+  top: 890px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 150%;
+  color: #fafafa;
+  /* identical to box height, or 36px */
+}
+
+.pincodeInput {
+  position: absolute;
+  width: 412px;
+  height: 46px;
+  left: 643px;
+  top: 926px;
+  border: 1px solid #f44336;
+  box-sizing: border-box;
+  padding: 14px;
+  border-radius: 5px;
+  background: transparent;
+  color: white;
+  font-family: "Poppins";
+  font-style: normal;
+}
+
+.pincodeInput:hover{
+    border: 2px solid white;
+}
+
+.postButton {
+  display: flex;
+  flex-direction: row;
+  /* align-items: flex-start; */
+  padding: 0px;
+  position: absolute;
+  width: 157px;
+  height: 43px;
+  left: 643px;
+  top: 1043px;
+  background: transparent;
+  border-radius: 17px;
+  /* align-items: flex-end; */
+  display: flex;
+  justify-content: center;
+  color: #7b7b7b;
+  font-size: 17px;
+  align-items: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+
+  border: 2px solid #7b7b7b;
+  cursor: pointer;
+}
+.postButton12 {
+  display: flex;
+  flex-direction: row;
+  /* align-items: flex-start; */
+  padding: 0px;
+  position: absolute;
+  width: 157px;
+  height: 43px;
+  left: 643px;
+  top: 1043px;
+  background: transparent;
+  border-radius: 17px;
+  /* align-items: flex-end; */
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  align-items: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  background: #f44336;
+  /* border: 2px solid #7b7b7b; */
+  color: white;
+  cursor: pointer;
+}
+
+.postButton:hover {
+    /* border: 2px solid white; */
+    color: #f44336;
+    background: white;
+    border: none;
+}
+.postButton:active{
+    transform: scale(0.98);
+            /* Scaling button to 0.98 to its original size */
+            box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+            /* Lowering the shadow */
+}
+.cancelButton:active{
+    transform: scale(0.98);
+            /* Scaling button to 0.98 to its original size */
+            box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+            /* Lowering the shadow */
+}
+
+.cancelButton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 157px;
+  height: 43px;
+  left: 904px;
+  top: 1042px;
+  background: transparent;
+  border-radius: 16px;
+
+  border: 2px solid #f44336;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 17px;
+  align-items: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.cancelButton:hover {
+    color: #f44336;
+    border: 2px solid white;
+    background: white;
+}
+.edge2 {
+  position: absolute;
+  width: 371px;
+  height: 0px;
+  left: 384px;
+  top: 896px;
+  border: 1px solid #fafafa;
+  transform: rotate(-90deg);
+}
+
+.edge1 {
+  position: absolute;
+  width: 1064px;
+  height: 0px;
+  left: 22px;
+  top: 682.48px;
+  border: 1px solid #e5e5e5;
+}
+
+.uploadButton {
+  position: absolute;
+  top: 524px;
+  left: 78px;
+  width: 86px;
+  height: 35px;
+  border-radius: 20px;
+  background: #f44336;
+  color: white;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+}
+
+.uploadButton:hover {
+  background: white;
+  color: #f44336;
+}
+.uploadButton:active {
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  /* Lowering the shadow */
+}
+
+.checkUpload {
+  appearance: none;
+  height: 30px;
+  width: 30px;
+  background-color: red;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  left: 104px;
+  top: 585px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkUpload::after {
+  content: "\f00c";
+  font-size: 20px;
+  color: white;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  display: none;
+}
+
+.checkUpload:checked::after {
+  display: block;
+}
+
+.exchangeBack {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 100px;
+  position: absolute;
+  width: 250px;
+  height: 48px;
+  left: 1166px;
+  top: 1008px;
+  border: 1px solid #f44336;
+  border-radius: 15px;
+  background-color: transparent;
+}
+.exchangeBack:hover {
+    border: 2px solid white;
+    background: white;
+}
+.exchangeBack:hover .nameExchange{
+    color: #f44336;
+}
+
+.exchangeBack:active{
+    transform: scale(0.98);
+            /* Scaling button to 0.98 to its original size */
+            box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+            /* Lowering the shadow */
+}
+.nameExchange {
+  color: white;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  cursor: pointer;
+  width: 170px;
+  position: absolute;
+}

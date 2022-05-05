@@ -1,0 +1,277 @@
+.line {
+    margin-top: 72px;
+
+}
+.bookSection {
+    position: absolute;
+    width: 957px;
+    height: 282px;
+    left: 97px;
+    top: 239px;
+    background: linear-gradient(180.16deg, rgba(255, 255, 255, 0.4) -354.5%, rgba(255, 255, 255, 0.1) 129.79%);
+    box-shadow: 0px 4px 24px -1px rgb(0 0 0 / 20%);
+    -webkit-backdrop-filter: blur(40px);
+    backdrop-filter: blur(40px);
+    border-radius: 40px;
+
+}
+
+.bookTitleSection {
+    position: absolute;
+    width: 315px;
+    height: 43px;
+    left: 148px;
+    top: 186px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 150%;
+    color: #FAFAFA;
+
+}
+
+.communityTitleSection {
+    position: absolute;
+    width: 413px;
+    height: 43px;
+    left: 136px;
+    top: 579px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 150%;
+    color: #FAFAFA;
+}
+.bookImage1 {
+    position: absolute;
+    width: 166px;
+    height: 232.19px;
+    left: 51px;
+    top: 23px;
+    /* left: 165px;
+top: 320px; */
+
+}
+.bookImage2 {
+    position: absolute;
+    width: 166px;
+    height: 232.19px;
+    left: 283px;
+    top: 23px;
+}
+.bookImage3 {
+    position: absolute;
+    width: 166px;
+    height: 232.19px;
+    left: 506px;
+    top: 23px;
+}
+.bookImage4 {
+    
+    position: absolute;
+    width: 166px;
+    height: 232.19px;
+    left: 730px;
+    top: 23px;
+}
+.bookImage5 {
+    position: absolute;
+    width: 166px;
+    height: 232.19px;
+    left: 149px;
+    top: 642px;
+    /* left: 165px;
+top: 320px; */
+
+}
+.bookImage6 {
+    position: absolute;
+    width: 166px;
+    height: 232.19px;
+    left: 379px;
+    top: 642px;
+}
+.bookImage7 {
+    position: absolute;
+    width: 166px;
+    height: 232.19px;
+    left: 602px;
+    top: 642px;
+}
+.bookImage8 {
+    
+    position: absolute;
+    width: 166px;
+    height: 232.19px;
+    left: 826px;
+    top: 642px;
+}
+
+.endSpace {
+    height: 2px;
+ 
+    margin-top: 743px;
+}
+.viewShelfButton:hover {
+    border: 1px solid white;
+    color: #F44336;
+    background: white;
+}
+.viewShelfButton:hover .viewShelfName {
+
+    color: #F44336
+}
+
+.viewShelfButton:active {
+
+        transform: scale(0.98);
+        /* Scaling button to 0.98 to its original size */
+        box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+        /* Lowering the shadow */
+    
+}
+.viewShelfButton{
+    display: flex;
+    background-color: transparent;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 100px;
+    position: absolute;
+    width: 250px;
+    height: 48px;
+    left: 1164px;
+    top: 180px;
+    border: 1px solid #F44336;
+    box-sizing: border-box;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.viewShelfName {
+   position: static;
+    width: 170px;
+    height: 24px;
+    left: 84.5px;
+    top: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #F9FAFB;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+
+}
+
+.uploadBookButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 100px;
+    position: absolute;
+    width: 250px;
+    height: 48px;
+    left: 1166px;
+    top: 245px;
+    border: 1px solid #F44336;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.uploadBookButton:hover {
+    /* border: 1px solid white; */
+    color: #F44336;
+    background: #F44336;
+}
+.uploadBookButton:hover .uploadBookName {
+
+    color: white;
+}
+
+.uploadBookButton:active {
+
+        transform: scale(0.98);
+        /* Scaling button to 0.98 to its original size */
+        box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+        /* Lowering the shadow */
+    
+}
+
+
+.uploadBookName {
+    position: static;
+width: 107px;
+height: 24px;
+left: 71.5px;
+top: 12px;
+
+/* text-base */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+/* Gray/Gray */
+
+color: #F9FAFB;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+
+.communityTitleName{
+    color: #F44336;
+}
+.friendTitleSection{
+    color: #F44336;
+}
+.bookImage1:hover {
+    transform: scale(1.1);
+          transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}
+.bookImage2:hover {
+    transform: scale(1.1);
+          transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}
+.bookImage4:hover {
+    transform: scale(1.1);
+          transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}
+.bookImage5:hover {
+    transform: scale(1.1);
+          transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}
+.bookImage6:hover {
+    transform: scale(1.1);
+          transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}
+.bookImage7:hover {
+    transform: scale(1.1);
+          transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}
+.bookImage8:hover {
+    transform: scale(1.1);
+          transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}
+.bookImage3:hover {
+    transform: scale(1.1);
+          transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}

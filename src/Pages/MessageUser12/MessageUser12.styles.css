@@ -1,0 +1,193 @@
+.line {
+    margin-top: 72px;
+  }
+  
+  .backIcon {
+      position: absolute;
+      width: 29px;
+      height: 25px;
+      left: 97px;
+      top: 193px;
+  }
+  
+  .messageTitle {
+      position: absolute;
+      width: 315px;
+      height: 43px;
+      left: 161px;
+      top: 188px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      line-height: 150%;
+      color: #fafafa;
+  }
+  
+  .messageUserSection {
+      position: absolute;
+      width: 952px;
+      height: 700px;
+      left: 97px;
+      top: 246px;
+      background: linear-gradient( 180.16deg, rgba(255, 255, 255, 0.4) -354.5%, rgba(255, 255, 255, 0.1) 129.79% );
+      box-shadow: 0px 4px 24px -1px rgb(0 0 0 / 20%);
+      -webkit-backdrop-filter: blur(40px);
+      backdrop-filter: blur(40px);
+      border-radius: 15px;
+  }
+  
+  .userImage {
+      position: absolute;
+      width: 70px;
+      height: 70px;
+      left: 22px;
+      top: 16px;
+  }
+  
+  .userName1r {
+      position: absolute;
+      width: 321px;
+      height: 48px;
+      left: 120px;
+      top: 33px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 150%;
+      color: #f44336;
+  }
+  
+  .inputMessage {
+      position: absolute;
+      width: 846px;
+      height: 66px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 17px;
+      left: 28px;
+      top: 618px;
+      padding: 16px;
+      background: #000000;
+      border: 2px solid #ffffff;
+      box-sizing: border-box;
+      box-shadow: 0px 4px 24px -1px rgb(0 0 0 / 20%);
+      -webkit-backdrop-filter: blur(40px);
+      backdrop-filter: blur(40px);
+      border-radius: 15px;
+      color: white;
+  }
+  .hello {
+      position: absolute;
+      
+  }
+  .messageSection {
+    position: absolute;
+    height: 493px;
+    width: 902px;
+    left: 20px;
+    top: 108px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-x: hidden;
+    scrollbar-color: green;
+
+}
+.messageSection::-webkit-scrollbar {
+    width: 8px;
+}
+
+.messageSection::-webkit-scrollbar-track {
+  background: white;
+    border-radius: 10px;
+}
+
+.messageSection::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #f44336;
+    height: 10px;
+    
+
+}
+  .updatedMessage{
+    font-size: 12px;
+    /* border: 2px solid #f44336; */
+    display: flex;
+    justify-content: flex-end;
+    font-weight: normal;
+    overflow: auto;
+    height: auto;
+    padding: 20px;
+    width: 295px;
+    margin-left: 0px;
+    border-radius: 20px;
+    background: white;
+    color: black;
+    text-align: right;
+  }
+  .updatedMessage1{
+    color: white;
+    font-size: 12px;
+    border: 2px solid #f44336;
+    display: flex;
+    justify-content: flex-start;
+    overflow: auto;
+    height: auto;
+    padding: 20px;
+    width: 295px;
+    background: #f44336;
+    border-radius: 20px;
+    text-align: left;
+  }
+  .dateSection {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 10px;
+    margin-left: 8px;
+    padding-bottom: 18px;
+    
+}
+.mm1{
+    /* border: 2px solid white; */
+    width: 350px;
+}
+.dateSection1 {
+    color: white;
+    display: flex;
+    justify-content: end;
+    font-size: 10px;
+    margin-right: 17px;
+    padding-bottom: 18px;
+    
+    
+}
+
+.mm{
+
+    width: 342px;
+    margin-left: 541px;
+}
+  
+  .submitButtonSection {
+      border-radius: 50%;
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      left: 888px;
+      top: 622px;
+      background: #F44336;
+      cursor: pointer;
+  }
+  
+  .submitButtonIcon {
+      position: absolute;
+      width: 31px;
+      height: 31px;
+      left: 6px;
+      top: 8px;
+  }
+  

@@ -1,0 +1,18 @@
+div .messageTitle{
+    position: absolute;
+    width: 315px;
+    height: 43px;
+    left: 97px;
+    top: 245px;
+
+    font-weight: 600;
+    font-size: 36px;
+
+    border: 2px solid white;
+
+}
+
+.line {
+    margin-top: 72px;
+
+}

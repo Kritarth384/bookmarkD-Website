@@ -1,0 +1,53 @@
+.userSection {
+  min-width: 22%;
+  border: 1px solid #5A5555;
+  height: 617px;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 22px;
+  margin-left: -102px;
+  width: 336px;
+  height: 634px;
+  left: 1227px;
+  top: 335px;
+  margin-bottom: 52px;
+
+}
+
+.userName {
+  display: flex;
+  flex: 2px;
+  border: 1px solid black;
+  justify-content: left;
+  align-items: center;
+  min-width: 100%;
+  color:#F44336;
+  font-size: 20px;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  padding-left: 60px;
+}
+.friendSection {
+  display: flex;
+  flex: 70% 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  min-width: 100%;
+}
+
+.viewAllFriend{
+    flex: 20% 1;
+    height: 20px;
+    border-radius: 15px;
+    background: #333333;
+    color: white;
+    width: 238px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
